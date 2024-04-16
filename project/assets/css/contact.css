@@ -1,0 +1,267 @@
+/* navbar */
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+li a {
+    margin: 0 8px;
+    transition: .5s;
+    font-weight: 500;
+}
+
+li a:hover {
+    background-color: lightgray;
+    color: black !important;
+}
+
+/* hero section */
+.hero {
+    height: 100vh;
+}
+
+.hero_img {
+    /* background-image: url(../images/c.png); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* background-color: rgb(152, 149, 149); */
+}
+
+.hero_img i {
+    font-size: 50px;
+    color: rgb(217, 95, 95);
+    transform: translate(560%, 560%);
+}
+
+.hero_txt {
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+    color: white;
+}
+
+.hero_txt h5 {
+    margin: 40px 0;
+}
+
+.hero_txt h1 {
+    margin: 50px 0;
+}
+
+.hero_txt input {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero_txt button {
+    background-color: rgb(217, 95, 95);
+    border: 2px solid rgb(217, 95, 95);
+    padding: 10px 20px;
+    color: white;
+    margin: 10px;
+    transition: .3s;
+}
+
+.hero_txt button:hover {
+    background-color: transparent;
+    color: rgb(217, 95, 95);
+}
+
+/* second_section */
+.second_section {
+    height: 80vh;
+}
+
+.sec_img {
+    background-image: url(../images/c.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.white_box {
+    background-color: rgba(255, 255, 255, 0.456);
+    height: 80vh;
+    padding: 100px 100px;
+}
+
+.w_box {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 60%;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.w_box p {
+    line-height: 2;
+    margin: 40px 0;
+}
+
+.w_box button {
+    background-color: rgb(237, 235, 235);
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.w_box button:hover {
+    background-color: transparent;
+}
+
+/* third_sec */
+.third_sec {
+    height: 100vh;
+}
+
+.third_map {
+    height: 100vh;
+}
+
+.third_txt {
+    height: 100vh;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.details {
+    margin: 50px;
+    font-size: 18px;
+}
+
+.details i {
+    background-color: rgb(217, 95, 95);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    float: left;
+    margin: 0 20px;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(68, 69, 79);
+    color: white;
+}
+
+.icons {
+    transform: translate(0%, -125%);
+}
+
+.icons i {
+    color: white;
+    background-color: rgb(150, 94, 94);
+    padding: 18px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.wround {
+    background-color: white;
+    padding: 22px 2px;
+    border-radius: 50%;
+    height: auto;
+}
+
+.info h3 {
+    margin-bottom: 30px;
+}
+
+.info p {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info i {
+    margin: 0 15px 0 0;
+    font-size: 21px;
+}
+
+.info p a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.links h3 {
+    margin-bottom: 30px;
+}
+
+.links p {
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.form {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 5px;
+    transform: translate(0%, -5%);
+}
+
+.input input {
+    padding: 8.8px;
+    width: 84%;
+    margin: 5px 0;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(235, 233, 233);
+}
+
+.input textarea {
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 4px;
+    background-color: rgb(235, 233, 233);
+    margin: 5px 0;
+    width: 90%;
+}
+
+.input button {
+    color: white;
+    background-color: rgb(160, 68, 68);
+    border: 2px solid rgb(160, 68, 68);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.input button:hover {
+    background-color: transparent;
+    color: rgb(160, 68, 68);
+}
+
+.input i {
+    font-size: 20px;
+    background-color: rgb(68, 69, 79);
+    padding: 11.8px 15px;
+    color: white;
+    border-radius: 4px 0 0 4px;
+}
+
+
+@media(max-width:768px) {
+    .icons i {
+        padding: 18px;
+        font-size: 25px;
+    }
+
+    .wround {
+        padding: 22px 2px;
+    }
+}
+
+@media(max-width:425px) {
+    .icons i {
+        padding: 15px;
+        font-size: 10px;
+    }
+
+    .wround {
+        padding: 16px 2px;
+    }
+}
