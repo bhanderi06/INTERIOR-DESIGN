@@ -1,0 +1,110 @@
+/* hero_section */
+.hero_img3 {
+    height: 90vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/617f/0208/6d531e7c956af22235d09897280e1f7a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JfyMFHf2Zx4iaOIZON90ioJ-Po2GbCke~Yvw52FfAosiLAXv8Xoii4G1o9LGEMvbcexW4MjUnuxtlKDB5yHIPBEzjKVnjCaYfvp5f4Bx4TNgBb0EoG8Jv7sf98KUOAGvJdCzAwf2aTiasA2BgXlAVwRKsX7CyQigmJILWTqrb1sCK5orqtQF5jG8xtfJVuvlOtKajH6K07ivOo-98EdFO-r9w7QnuJacEkZNPrF2yqi2LwH~NwQqLTY9J~iqBWyegOrRZayIbdVHaDgDY1vRFMRByS69fjM0lKoNQJKIFq5RsLvIpeGSPWgPDsVYfHDFfJ~bpq4ew8r1WwzcU37Otw__);
+    background-position: center;
+    background-size: cover;
+}
+
+.black_box {
+    background-color: rgba(0, 0, 0, 0.461);
+    height: 90vh;
+}
+
+.hero_txt1 {
+    padding-top: 12%;
+    text-align: center;
+    color: white;
+}
+
+.hero_txt1 h1 {
+    font-size: 80px;
+    margin: 20px
+}
+
+.hero_txt1 button {
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.hero_txt1 button:hover {
+    background-color: transparent;
+    color: lightgray;
+}
+
+/* second_section */
+.second_sections {
+    height: 110vh;
+}
+
+.sec_box1 {
+    background-color: white;
+    height: 100vh;
+    width: 80vw;
+    position: relative;
+}
+
+.sec_box2 {
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+}
+
+.sec_box1 h1,
+.sec_box1 p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.images {
+    position: relative;
+    transform: translate(0, -100%);
+}
+
+.sec_img-1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/4127/12ad/685489d7b215c9c49ba14529d8f68ae9?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bYdRHZGUZwQE6W9CyiUstHjppfKTvZIgRe-kJYFFNJlZwX6jDFQwu~blUktPCSyU1t0EJc1qlZ4HGR5dPgauIxrP37rWIDzmFn-WhRA6YyVSx1eoSwIVGWgXfyEi~nqfA183N7kAQXgEz1oAO6elUyLZUOl1SVetN4GPS1FEKr4FG8qyhDLXziFZuvkw2OS~OEr-F2HxHuUKJteuLzDtoVRDaBcS5V4jmJkoddqoPguj8SuQIf2c4axpInrrhluHGosGfGiDgUqwyQkKfBHzjNO9737cO~WAV90H~HPvG3uUfQQ5SrfVF1ZDv2dc3yZHOWCAVL5VvFDTI0hcn06YlA__);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.sec_img-1:hover {
+    opacity: 0.6;
+}
+
+.sec_img-2 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/b1d7/0d05/b50162892539307451b26afeef94c4e0?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MrnJ-zx~cxJGNQz-m836zd7Ep9SIkzuTjdTmZLouSyPSzQvGohwSM0Zhfe8NqnV~dmfF7IP9MEgNE2NO9nO~7bxHn3zsYOWTs4Y1cWOR50kI927M~-AEtsb2aoBLWtfL2JexrMXGsM5EExRWMvco5OHzTQK4cjhR6EDzYfvwiAfS83OVBdujD6zkqsMKO-kUJ4ywAAVT9W8Trb2K1UkPLIUOymuXNzaf7Orb7BtlrOMJjqg3KB-qnxeMXpjC6eFWOsYB0FAkxQGzogwRdLbECJ01aBTP6XLhqnWaSW3bh8WmjTKgBEd71tEEXwMSAhaQJr~TWBhbpfgP8QUxmZ7gkA__);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.sec_img-2:hover {
+    opacity: 0.6;
+}
+
+.sec_img-3 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/2322/3c22/2dd245c4c1e721ae2153ce2abf986c8a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GPDMw3YNXFVYDv-TRIPC7ZilzDO6CCqbMiOxLXaWwY40rm~mEPdGq1oJNP6A700rfX95mgc7QFfHcCBX~NaNhj8eyElueW02V6f~QR-MfrM5UwOGFOGuAGnoFmDWhoFtJ3GWqLfBrJX2V5CiNzPRrTF-zTYbeqOZce4LdRi1yxPDuqbyafodSOGN5P~wsxPxebr2KUDc9vYtDNhVZipVbAvqTYi~oChWsZwg6lEyP8muNHpsQ~uG-yQ37-ZTL-05267QNVyRuB1~TmAebFW58L~797-ePScptUzeUrEYfbfPLX~7T2CDBcenyM-jmIjl4HPUt7iC0IXd1XI72fwS-Q__);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.sec_img-3:hover {
+    opacity: 0.6;
+}
+
+.sec_img-4 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/957e/205d/cd90a87ec97323149f9a08b0176c9de0?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mCy36ElvIl9-IBshNSEbFDVCsT-OmLA78lAjiKRAFpbXoZptkU91qA5bWbd82GX5VR35~lb0rOl3IbybEAIGe0wNOpTd2sne~3J4KtRPAln5Jf5vtgX6nbi4bgLUZBz7dNxRseoHC9dq2sWAHYjTqfT3k0fWTKKnkOCVmLSKyLyGYcEb-CM3BDsOMyQ0HUmWpj59c1z~yBkYmNWMj4y7UjJRnHqOPBLPUW~ck90Gg5hJ72OWXZ8H0KjZoyagbeEkPJqqxAYE4~6FIEzSkEpIku8iy94zMJkMANTDzi62egkTdLErj~XtGP5ftSjXssEYM~TEINAFowWEa~v9eelqBg__);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.sec_img-4:hover {
+    opacity: 0.6;
+}
