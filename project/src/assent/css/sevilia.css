@@ -1,0 +1,68 @@
+/* hero_section */
+.hero_img-1 {
+    height: 90vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e909/f724/64e18af794a94e59f0bae8bd1de28f76?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=M2~ivd~3niRpk~~M8p4A35bgogGhGuzcMpqs3W0tjS59EtB2Z7p4kCebxegWyCoLoeWrrBQ-3LrGWmpGHzJqrpI18E0OaYYG-jL4bqcfSqqNZyuD3m1twqMXFTnvWpODPCU1SOBsLErDeM2bylQ9pDRzpYlnoYSr4KCV1edV5bl37OGfHV6sbyrvW0dL-1a3PIlsT~Bei71m7bOz7tSqIVAxmM5WXZcUBEbA9qWfNQVntDbxX~adDDCj-JB86w~XSx5ijxAAdb9dj9mJmlE8~cSIS-DcjllmhyjzFnzcE5QqBU~qA8EII-ZarHE-TwqLtUyHyacR2qbAyreo0Gs~bw__);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.black_box {
+    background-color: rgba(0, 0, 0, 0.461);
+    height: 90vh;
+}
+
+.hero_txt-0 {
+    padding-top: 12%;
+    text-align: center;
+    color: white;
+}
+
+.hero_txt-0 h1 {
+    font-size: 80px;
+    margin: 20px
+}
+
+.hero_txt-0 button {
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.hero_txt-0 button:hover {
+    background-color: transparent;
+    color: lightgray !important;
+}
+
+/* second_section */
+.second_section {
+    height: 100vh;
+}
+
+.second_left {
+    background-color: white;
+}
+
+.second_left h1 {
+    padding: 30px;
+    line-height: 1.3;
+    word-spacing: 8px;
+    margin: 0 0 0 20%;
+}
+
+.second_left_innerBox1 {
+    background-color: rgb(110, 110, 110);
+}
+
+.second_left_innerBox {
+    background-color: rgb(110, 110, 110);
+}
+
+.second_right {
+    background-image: url(https://s3-alpha-sig.figma.com/img/b70b/654d/b5910a68676395bacf4efc2336a2bdf6?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fs2oC2IEK~xhSexnDoGbcFXBpTw67dCayb-AzdF4nMyA7~cW2mv3Z5IHqzCopQd3SFDiXvVtwPwJLl~rbt0tSdxSEFR3xo7glqkDNAQ2OIb6jcH6OYxN1g2xPHuaZNEtMGiszlf-15mVT3cNZa117QEagyGkphFW1Dl0emqnEYrKgCugVYBbu4ZB77qBxbp3DM~f9~hOgQszD8miLZOb8hxpbqwJoHGCr-G621gbNgJx9nh6tZwJA34Ubt7HzF15XdhMOwkkzrsA2rxfO0LAb9wcy-cPG77nFFI5udlZBy2dSlmDvAtWT3940x3MkmlejNr59By2JPqkbnlBZHuc-g__);
+    background-position: center;
+    background-size: cover;
+}

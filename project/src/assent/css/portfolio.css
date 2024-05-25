@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* hero section */
+.hero_txt0 {
+    height: 600px;
+    background-color: rgb(153, 154, 156);
+    color: white;
+}
+
+.hero_txt0 h2 {
+    margin: 50px 20px;
+    font-size: 42px;
+}
+
+.sec_txt {
+    text-align: center;
+}
+
+.type2 {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation:
+        typing 1s steps(25, end) forwards;
+    animation-delay: 1s;
+}
+.h1_txt{
+    word-spacing: 15px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: orange;
+    }
+}
+
+.hero_img0 {
+    height: 600px;
+    margin: 0px;
+}
+
+.back_img {
+    background-image: url(https://s3-alpha-sig.figma.com/img/a491/5416/c61058f1f777537001e90501e11de81b?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=irHW8GN0juq5lME7EFwnRuxijjijz-9Xfoq~ZNlRswGoAN3iI2LE8Q9vMxLeKqnP2rVCUz0pu67xqL0sL37TtiUtQJWRSePPKO3CvX5LZV-dw~4qQaiti76muQ563UMdFVoM2c~KiLAdeQoxprdHO-AwToPqCZxzNr9gnhUbNBdyA89iJRSs0a7RQPC-iFQ6o8bpVv~WfQf0UcAaoGrD4o1dNrNIYG5d3Nzw-evq15ZnXC0b6FbMAm1AhSJEaBydyJ8mctjgAFt2dGrzpyQ8K5Lvz8x4Yiv58v5e-p4hB5RoukQniAyHo93tj55odnePKEP3DhRiRAW6Y9bHVCtPLQ__);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.back_img:hover{
+    opacity: 0.6;
+}
+
+
+/* second section */
+.second_sec_img {
+    height: 100vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/c8c6/0747/96378a6d3eb1ac21b5160959d1ff721a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JQ~DjY6beoTaMUZ7YurZokPhgIlujyM2S5XRpv9Ys4TTde0K-U-4kHuBnziFLtrfXOdkzC2Ljtk7XsksFOxnvhl2Dxu5J~iEEGt8bhqKQj8KbzBOyzGtMFq1c64Vo41pqX~MNtOPu7waA3dTbPBfKx-9nVV42shPNCcSgGKibt9S8H~ENmN0KW2SWW3dbi2NBviKOQFxW9KsRj8x5c5gX6INobHzUin989KP~zqVTtT8s0e6QqHgp4iYbYH48-cz95n6SurRgx~2~~V~IYKilZMr5H7fbuzRo27Kzprbb4X2pRY2Z6Z8DFH~YPtE~-PAr8H5dt8aui1CfPYpwXYvdQ__);
+    background-position: center;
+    background-size: cover;
+}
+
+.white_box {
+    background-color: rgba(255, 255, 255, 0.406);
+    height: 100vh;
+}
+
+.box {
+    background-color: white;
+    height: auto;
+    margin-top: 80px;
+    /* margin: 80px 0px; */
+    position: relative;
+    padding: 20px;
+}
+
+.box_title {
+    transform: translate(0, -90%);
+    text-align: center;
+    font-weight: 700;
+    color: gray;
+}
+
+.box_txt {
+    margin: 50px auto 30px;
+    width: 66%;
+    text-align: center;
+}
+
+.box_txt p {
+    text-align: justify;
+}
+
+/* third_section */
+.third_section {
+    padding: 50px 0;
+}
+
+.t_txt p {
+    width: 40%;
+}
+
+.t_img {
+    background-image: url(https://s3-alpha-sig.figma.com/img/83c4/05da/2083a125d88e4b65bb5cbaa20f1b8fe4?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NhqSdc5auNCgrAk6fpfB5l086aPdM5uRSqOTwDFvLjmSe6EpYrlJjYtvri4YjRHVZhwuT732XzIick055SRNSAg-Og3D8zwLjHi~5t6x8vU0TrZtvysBkhl0qdDGLWKjQzJ4pFUmchhnSgQjuwHyheqIg1hdcQkCY~7TqKK7NNNK2TIR9Lk9TQjctDVLIEIZNfneFdIaBDMDzbZkV4mUXzHSzgJUP5xgBUuHaBj8hMxT2ykomuMSdsiaoqSUx-XNOQM6BezIvWuemD3dLS0YkJI7rcWumgRWaMuZeiKJy7K~t7lmmO8uR5-LNuNrxVpcb6F0SlI~iKOkVmjthBiLPA__);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.t_img:hover{
+    opacity: 0.6;
+}

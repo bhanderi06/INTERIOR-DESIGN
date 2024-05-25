@@ -1,0 +1,49 @@
+.back {
+    background-image: url(https://s3-alpha-sig.figma.com/img/c320/d3cd/f214948edacd3ae735443de8f047f3a0?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XnBj8bFO8hXe8RFa5l8AXpGHi59P2F4D2gyFksTn2eGJ1u702fr6520smMNsKsliGxpkxjrGYD1qqKldceCk-zUt1dTs2GldiE5aPKzmFVJ-EDsUh~YicPEU04oE29HY8b47Ym~LI~hOCvbEXsCs5Rf~illccbb6NCttKZi2CETxpMhxVZjlQoCRnPMOmrtWRnQVTQoZJ8PbGH7wy~W0z5axp3x42wFlWBVatVR8396wef5SESexGLUOC~GcnzrhonB-96JSj48AES222c98f~Z7nojSNykEOrNPcSSF2mtmr4ThMrdOvXBsdP6QN~yX2cpem1k4xStXDHWbtj4eDA__);
+    width: 100%;
+    height: 750px;
+    background-size: 100% auto;
+}
+
+.front {
+    background-color: black;
+    opacity: 0.7;
+    width: 29%;
+    margin-left: 35.5%;
+    height: 500px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.bg-color {
+    background-color: #3D3E49;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.bg-color {
+    background-color: #3D3E49;
+}
+
+li a {
+    margin: 0 8px;
+    transition: .5s;
+    font-weight: 500;
+}
+
+li a:hover {
+    background-color: lightgray;
+    color: #606062 !important;
+}
